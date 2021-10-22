@@ -1,0 +1,57 @@
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.cuadrado {
+   width: 300px;
+   height: 300px;
+   border-radius: 5px;
+   background-color: gray;
+}
+
+.cuadrado:hover {
+   cursor: pointer;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+   border-radius: 50%;
+   transition: 0.5s;
+}
+
+.cuadrado:not(:hover) {
+   transition: 0.5s;
+}
+
+.botones {
+   margin-top: 20px;
+   display: flex;
+}
+
+.btn {
+   width: 80px;
+   border-radius: 5px;
+   padding: 8px;
+   text-align: center;
+   margin-left: 10px;
+   color: white;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.btn:hover {
+   box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+   cursor: pointer;
+}
+
+.rojo {
+   background-color: red;
+}
+
+.verde {
+   background-color: green;
+}
+
+.azul {
+   background-color: blue;
+}
+
